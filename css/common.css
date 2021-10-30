@@ -24,20 +24,16 @@ button {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-.gallery:nth-last-child() {
-  margin-left: 15px;
+  display: flex;  
+  list-style: none; 
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  max-width: calc((100% - 30px) / 3);
+  max-width: calc((100% - 60px) / 3); 
+  padding: 10px;
 }
 
 .itemsImg {

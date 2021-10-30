@@ -26,4 +26,7 @@ images.map((item)=>
 
 
 console.log(imgArr);
-imgGalery.insertAdjacentHTML('beforeEnd', imgArr);
+imgGalery.insertAdjacentHTML('beforeEnd', imgArr[0]);
+imgGalery.insertAdjacentHTML('beforeEnd', imgArr[1]);
+imgGalery.insertAdjacentHTML('beforeEnd', imgArr[2]);
+//imgGalery.appendChild(...imgArr);
